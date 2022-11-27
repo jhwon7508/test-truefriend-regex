@@ -1,0 +1,11 @@
+#profiles
+spring:
+  config:
+    activate:
+      on-profile: local
+  application:
+    name: test-truefriend-regex
+
+#server
+server:
+  port: 8888
